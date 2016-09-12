@@ -26,8 +26,8 @@ public class remotechrome {
         RemoteWebDriver driver = new RemoteWebDriver(new URL(
                 "http://192.168.0.102:4444/wd/hub"), capabilities);
         driver.manage().window().maximize();
-        driver.navigate().to("https://www.teknosa.com/");
-        Assert.assertEquals("Title check failed!", "Teknosa Alışveriş Sitesi - Herkes İçin Teknoloji", driver.getTitle());
+        driver.navigate().to("https://www.google.com/");
+        Assert.assertEquals("Title check failed!", "Google", driver.getTitle());
 //comment
         //Step 4- Close Driverremote
         driver.close();
