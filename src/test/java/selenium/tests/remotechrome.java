@@ -28,7 +28,7 @@ public class remotechrome {
         driver.manage().window().maximize();
         driver.navigate().to("https://www.google.com/");
         Assert.assertEquals("Title check failed!", "Google", driver.getTitle());
-//comment
+//commentary
         //Step 4- Close Driverremote
         driver.close();
 
