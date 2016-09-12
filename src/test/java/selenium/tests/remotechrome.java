@@ -29,6 +29,7 @@ public class remotechrome {
         driver.navigate().to("https://www.teknosa.com/");
         Assert.assertEquals("Title check failed!", "Teknosa Al[?şveriş Sitesi - Herkes ?ç]in Teknoloji", driver.getTitle());
 //comment
+        //another comment
         //Step 4- Close Driverremote
         driver.close();
 
